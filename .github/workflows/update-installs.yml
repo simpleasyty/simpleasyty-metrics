@@ -2,7 +2,7 @@ name: Update installs JSON
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # cada 30 min
+    - cron: "15 6 * * *" 
   workflow_dispatch: {}
 
 permissions:
